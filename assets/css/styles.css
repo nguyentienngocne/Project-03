@@ -60,7 +60,6 @@ a {
     font-size: 1.8rem;
     font-weight: 300;
     line-height: 1.67;
-    letter-spacing: 0em;
     color: #575f66;
 }
 
@@ -509,4 +508,46 @@ a {
 
 .member__control-next-icon {
     rotate: 180deg;
+}
+
+/* Install */
+.install {
+    margin-top: 180px;
+}
+
+.install__inner {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 70px;
+    border-radius: 4px;
+    background: #2e80ce;
+}
+
+.install__img {
+    display: block;
+    width: 284px;
+    height: 522px;
+    margin-top: -95px;
+    object-fit: cover;
+}
+
+.install__content {
+    max-width: 586px;
+}
+
+.install__heading,
+.install__desc {
+    color: #ffffff;
+}
+
+.install__heading {
+    max-width: 489px;
+    letter-spacing: -0.02em;
+}
+
+.install__row {
+    column-gap: 28px;
+    display: flex;
+    margin-top: 38px;
 }
